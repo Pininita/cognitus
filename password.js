@@ -39,6 +39,6 @@ if  (!/[a-z]/.test(p)) {
         
 }
 
-//llaado funcion en console log
+//llamado funcion en console log
 
      console.log(pass("lioneKKKKK12&"));
