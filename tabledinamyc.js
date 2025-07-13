@@ -42,6 +42,6 @@ function edutable(basenumber, limitnumber, type) {
                //se regresa la tabla
          return dinamyctable;
             }
-        
+      //llam ado edutables  
            
 console.log(edutable(5,10,'all'));

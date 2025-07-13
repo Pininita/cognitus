@@ -31,4 +31,5 @@ function studenprom(records, name) {
             return (`${name} Sacaste F, lamentablemente tienes que hacer actividades de recuperacion riesgo academico 100%`);
         }
 }
+//llamado studenprom
 console.log(studenprom([100,40,80,90,95,96], "juan jose",));

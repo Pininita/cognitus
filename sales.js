@@ -50,5 +50,5 @@ const salesinfo = [
 console.log(salesinfo);
 
 }
-
+//llamado funcion analizesales
 analizesales([11,150,120, 500, 10000, 2000, 1200])
