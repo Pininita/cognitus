@@ -27,7 +27,7 @@ function edutable(basenumber, limitnumber, type) {
     //se hace la suma de los resultados tenoiendo encienta los pares nada mas
          const totalpluspar= par.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
         //se define el total de limite numdrico permitido
-        
+
              limitnumber = 10;
              //se define el tipo de dato
               type ='all';
@@ -39,6 +39,7 @@ function edutable(basenumber, limitnumber, type) {
                     limitnumber,
                     type
                };
+               //se regresa la tabla
          return dinamyctable;
             }
         
