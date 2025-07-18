@@ -3,25 +3,26 @@ tablas de multiplicar  dinamicas*/
 
 function edutable(basenumber, limitnumber, type) {
     //se define la tabla
-    let ft = `la tabla del ${basenumber} \n`;
+    let finaltable = `la tabla del ${basenumber}\n`;
     //se define la variuable para almacenar los resultados de la multiplicacion
-     let rn = [];
+     let finalresult = [];
+     //se degine variable par
      let par =[];
      //ciclo para insertar los resultados de la mupltiplicavion y sumarlos 
     for (let i = 1; i <= limitnumber; i++) {
            
         
-        const fp = basenumber* i;
-              //se guarda el gotal de multiplicar los 10 numeros entre el numero base
+        const finalplus = basenumber* i;
+              //se guarda el total de multiplicar los 10 numeros entre el numero base
 
-         ft += (`${basenumber}* ${i} = ${fp}\n`);
-         //se insertan en la variaable para almacenar resultadozs
-                      rn.push(fp);
+         finaltable += (`${basenumber}* ${i} = ${finalplus} \n`);
+         //se insertan en la variable para almacenar resultadozs
+                    finalresult.push(finalplus);
 
         
         //se hace insersion de los pares en los resultados
         if (i %2 ===0 ) {
-        par.push(fp)
+        par.push(finalplus)
         }
     }
     //se hace la suma de los resultados tenoiendo encienta los pares nada mas
@@ -33,7 +34,7 @@ function edutable(basenumber, limitnumber, type) {
               type ='all';
 // se crea ta tabla dinamicamente
                const dinamyctable  = {
-                    ft,
+                    finaltable,
                     totalpluspar,
                     basenumber,
                     limitnumber,
